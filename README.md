@@ -4,7 +4,7 @@ This application simulates an UWB radar system with 4 transcievers and 1 recieve
 
 Then, 3 approximation methods used for target localization (Direct calculation, Least-squares, Taylor series) are compared.
 
-![plot](.\assets\readme-img.png)
+![Screenshot](assets\readme-img.png)
 
 ## How to use the program
 
