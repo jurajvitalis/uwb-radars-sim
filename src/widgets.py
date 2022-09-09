@@ -1,12 +1,8 @@
-import numpy as np
-import math
 from PyQt5 import QtWidgets, QtGui
 
 import room
 import plotting
 import calculations
-
-import constants
 
 
 class MainWindow(QtWidgets.QMainWindow):

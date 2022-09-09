@@ -1,6 +1,6 @@
 import sys
 
-from PyQt5.QtWidgets import QDesktopWidget, QApplication
+from PyQt5.QtWidgets import QApplication
 
 import widgets
 from PyQt5 import QtWidgets
