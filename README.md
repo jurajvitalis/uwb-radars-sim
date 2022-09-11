@@ -1,8 +1,8 @@
 # Object Localization Using Round Trip Propagation Time Measurements
 
-This application is a demonstration of the results in [this paper](https://ieeexplore.ieee.org/abstract/document/4542689?casa_token=anrYO5PKXesAAAAA:DJEadLwcF02fw9-zX2Jg-g8BGwdtXagcvIczKT7XP-4Uyy-O4Qz8HxzLCEWlTgDNF5FNr3CXeNXl), with two dimensions in consideration. It simulates an UWB radar system with 4 transcievers and 1 reciever used to localize an object.
+This application is a demonstration of the results in [this paper](https://ieeexplore.ieee.org/abstract/document/4542689?casa_token=anrYO5PKXesAAAAA:DJEadLwcF02fw9-zX2Jg-g8BGwdtXagcvIczKT7XP-4Uyy-O4Qz8HxzLCEWlTgDNF5FNr3CXeNXl), with two dimensions in consideration. It simulates a UWB radar system with 4 transcievers and 1 reciever used to localize an object.
 
-Based on user input, it generates 2-d coordinates as they would have been received by the radar system. Then, 3 approximation methods (Direct calculation, Least-squares, Taylor series) used to produce the resulting trajectories are compared.
+Based on user input, 2-d coordinates are generated as they would have been received by the radar system. Then, 3 approximation methods (Direct calculation, Least-squares, Taylor series) used to produce the resulting trajectories are compared.
 
 ![Screenshot](/assets/readme-img.png)
 
@@ -20,7 +20,7 @@ Based on user input, it generates 2-d coordinates as they would have been receiv
 
 To run this as a python script:
 
-1. Build the conda environemnt from `environment.yml`
+1. Build a conda environemnt from `environment.yml`
    
    ```bash
    conda env create --name envname --file=environment.yml
